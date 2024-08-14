@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+     rel="stylesheet">
+    <title>Recipe Generator</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Recipe Generator</h1>
+        <p class="subtitle">Discover delicious recipes based on the ingredients you have at home!</p>
+    </header>
+
+    <main class="main-content">
+        <section class="instructions">
+            <p>
+                Welcome to the Recipe Generator! Simply enter a list of ingredients you have on hand, and we'll create a delicious recipe just for you.
+            </p>
+        </section>
+
+        <div class="recipe-container">
+            <input placeholder="Enter food ingredients" class="input" type="text">
+            <button class="recipe-btn">Create Recipe</button>
+            <p class="recipe-output"></p> 
+        </div>
+
+        <section class="tips">
+            <h2>Tips for Best Results:</h2>
+            <ul>
+                <li>Include a variety of ingredients like proteins, vegetables, and spices for a more complete recipe.</li>
+                <li>Be specific with your ingredients, e.g., "chicken breast" instead of just "chicken."</li>
+                <li>Try entering a theme or cuisine along with your ingredients, like "Italian" or "spicy."</li>
+            </ul>
+        </section>
+
+        <section class="result">
+            <button class="recipe-delete">Delete Recipe</button>
+            <p></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p></p>
+    </footer>
+    
+    <script charset="UTF-8" src="script.js"></script>
+</body>
+</html>
